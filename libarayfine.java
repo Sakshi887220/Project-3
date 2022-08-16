@@ -15,17 +15,17 @@ public class libarayfine {
 
   public static void main(String[] args) {
     // create list of User to store details
-    ArrayList<user> user = new ArrayList<user>();
+   
+    
     try {
       // In this example fineDetails.txt is stored
       // at D drive (D:\) in Windows operating system.
       
       // read data from file and store in list
-      read(user, "D:\\fineDetails.txt");
+     
 
       // calculate fine and store in "fineReport.txt"
-      calculateFine(user, "D:\\fineReport.txt");
-      
+     
       // display some message
       System.out.println("Fine report is saved.");
     } catch (Exception e) {
